@@ -1,0 +1,19 @@
+    {
+      "name": "IoT-Labs-Arduino",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/ThingLabsIo/IoTLabs/tree/master/Arduino/Weather"
+      },
+      "version": "0.1.0",
+      "private":true,
+      "description": "Sample app that connects a device to Azure using Node.js",
+      "main": "weather.js",
+      "author": "Mika",
+      "license": "Centria",
+      "dependencies": {
+        "azure-iot-device": "latest",
+        "azure-iot-device-amqp": "latest",
+        "johnny-five": "latest",
+        "j5-sparkfun-weather-shield": "latest"
+      }
+    }
